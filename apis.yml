@@ -1,4 +1,16 @@
 aid: woxiaoya
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/woxiaoya.png
 name: woxiaoya
 description: woxiaoya is a company surfaced as a portfolio company of qiming and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -21,5 +33,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/woxiaoya-domain-security.yml
 - type: Website
   url: https://woxiaoya.com
